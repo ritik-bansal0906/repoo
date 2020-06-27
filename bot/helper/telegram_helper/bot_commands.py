@@ -1,8 +1,8 @@
 class _BotCommands:
     def __init__(self):
         self.StartCommand = 'start'
-        self.MirrorCommand = 'class'
-        self.TarMirrorCommand = 'classmirror'
+        self.MirrorCommand = 'mirror'
+        self.TarMirrorCommand = 'tarmirror'
         self.CancelMirror = 'cancel'
         self.CancelAllCommand = 'cancelall'
         self.ListCommand = 'list'
@@ -14,8 +14,8 @@ class _BotCommands:
         self.StatsCommand = 'stats'
         self.HelpCommand = 'help'
         self.LogCommand = 'log'
-        self.CloneCommand = "classcone"
-        self.WatchCommand = 'classwatch'
-        self.TarWatchCommand = 'classtarwatch'
+        self.CloneCommand = "clone"
+        self.WatchCommand = 'watch'
+        self.TarWatchCommand = 'tarwatch'
 
 BotCommands = _BotCommands()
